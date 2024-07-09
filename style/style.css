@@ -190,16 +190,16 @@
     border-radius: 8px;
     padding: 17px 20px;
 }
-/* .footer{
+.footer{
     width: 1140px;
     height: 36px;
     padding:32px 150px;
     display: flex;
     margin: 0 auto;
-    /* justify-content: center; */
-    /* justify-content: space-between; */
-/* } */
-/* .footer-img{
+    justify-content: center;
+    justify-content: space-between;
+}
+.footer-img{
     width: 36px;
-    height: 36px; */
-/* }  */
+    height: 36px;
+}
