@@ -1,3 +1,44 @@
-.ass{
-    color: blue;
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Azeret Mono", monospace;
+    margin: 0;
+    padding: 0;
+}
+#hero{
+    background-image: url("../assets/Hero-bg.png");
+    width: 1440px;
+    height: 652px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hero .centered-content{
+    width: 998px;
+    height: 582px;
+    text-align: center;
+    margin:0 221px 0 221px;
+    
+}
+.cover-img{
+    height: 240px;
+    width: 240px;
+}
+.cover-header{
+    margin: 32px 0 24px 0;
+}
+.cover-paragraph{
+     font-size: 12px;
+     line-height: 20px;
+     margin-bottom: 32px;
+}
+.cover-button{
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    color: white;
+    font-size: 20px;
+    padding: 21px 24px 21px 24px;
 }
